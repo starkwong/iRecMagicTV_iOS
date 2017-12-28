@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(PODS_ROOT)/Google-Mobile-Ads-SDK/** "$(PODS_ROOT)/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.4.1"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CJPAdController" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK" "${PODS_ROOT}/Headers/Public/HTMLReader" "${PODS_ROOT}/Headers/Public/MBProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/CJPAdController" -isystem "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK" -isystem "${PODS_ROOT}/Headers/Public/HTMLReader" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-AFNetworking" -l"Pods-CJPAdController" -l"Pods-HTMLReader" -l"Pods-MBProgressHUD" -framework "AVFoundation" -framework "AdSupport" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "EventKit" -framework "EventKitUI" -framework "GoogleMobileAds" -framework "MessageUI" -framework "MobileCoreServices" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "iAd" -weak_framework "AdSupport"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

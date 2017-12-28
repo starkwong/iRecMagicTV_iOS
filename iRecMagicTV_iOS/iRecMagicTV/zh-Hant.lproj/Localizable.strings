@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  iRecMagicTV
+
+  Created by Stark Wong on 2015/08/16.
+  Copyright (c) 2015年 Studio KUMA. All rights reserved.
+*/
+
+"login_alert_mobileno" = "流動電話號碼：";
+"login_alert_password" = "密碼：";
+"clf_login_title" = "登入";
+"ok" = "好";
+"cancel" = "取消";
+"clf_show_favorites" = "顯示最愛頻道";
+"clf_show_all" = "顯示所有頻道";
+"plf_exist_title" = "錄影";
+"plf_overlap" = "目前節目與已排程的節目重疊：\n";
+"plf_info_title" = "錄影";
+"plf_info_prerecord" = "日期：%@\n時間：%@\n長度：%@\n名稱：%@\n\n%@";
+"plf_success_mesage" = "已成功註冊錄影。";
+"yes" = "是";
+"no" = "否";
+"plf_exist_message" = "所選擇的節目已經排程錄影，仍要繼續？";
+"aea_start" = "%@ (%@) 準備開始了。";
+"plf_exist2_title" = "通知";
+"plf_success2_message" = "已成功註冊通知。";
+"plf_info_error" = "無法取得選擇節目的資訊。";
+"plf_single" = "(單次)";
+"plf_multiple" = "(多次)";
+"sf_logout" = "登出";
+"sf_logout_message" = "這樣將登出目前的帳號並移除所有儲存在本端的錄影資料，您確定嗎？";
+"sf_logout_clear_logout" = "登出";
+"rvc_note" = "從這個清單中移除項目並不會從您的 MagicTV 裝置實際移除，您必須自行在裝置上移除。";

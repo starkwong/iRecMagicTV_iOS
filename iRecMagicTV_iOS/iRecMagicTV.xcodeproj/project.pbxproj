@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99132ECD1B86190100F26B40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99132ECF1B86190100F26B40 /* InfoPlist.strings */; };
+		99132ED21B861BFB00F26B40 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132ED11B861BFB00F26B40 /* GoogleMobileAds.framework */; };
+		99132ED41B861C2500F26B40 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132ED31B861C2500F26B40 /* AVFoundation.framework */; };
+		99132ED61B861C2A00F26B40 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132ED51B861C2A00F26B40 /* AdSupport.framework */; };
+		99132ED81B861C3600F26B40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132ED71B861C3600F26B40 /* CoreGraphics.framework */; };
+		99132EDA1B861C4D00F26B40 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132ED91B861C4D00F26B40 /* CoreTelephony.framework */; };
+		99132EDD1B861C5800F26B40 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EDB1B861C5800F26B40 /* EventKit.framework */; };
+		99132EDE1B861C5800F26B40 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EDC1B861C5800F26B40 /* EventKitUI.framework */; };
+		99132EE01B861C6400F26B40 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EDF1B861C6400F26B40 /* MessageUI.framework */; };
+		99132EE21B861C6F00F26B40 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EE11B861C6F00F26B40 /* StoreKit.framework */; };
+		99132EE41B861C7400F26B40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EE31B861C7400F26B40 /* SystemConfiguration.framework */; };
+		99132EE61B861C8C00F26B40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EE51B861C8C00F26B40 /* AudioToolbox.framework */; };
+		99132EE81B861CBC00F26B40 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99132EE71B861CBC00F26B40 /* CoreMedia.framework */; };
+		99132EEA1B861D9300F26B40 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99132EE91B861D9300F26B40 /* TabBarController.swift */; };
+		9914D74B1B83751B0034CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914D74A1B83751B0034CE17 /* LaunchScreen.storyboard */; };
+		9925E2DE1B5A4B20007A2AF9 /* EditChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9925E2DD1B5A4B20007A2AF9 /* EditChannelsViewController.swift */; };
+		99587C301B04ABBF00EDC3DD /* mock in Resources */ = {isa = PBXBuildFile; fileRef = 99587C2F1B04ABBF00EDC3DD /* mock */; };
+		998920C51B0426A00039CC47 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998920C41B0426A00039CC47 /* ChannelViewController.swift */; };
+		998F5B1B1AEC71A8002F6278 /* IRecLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F5B1A1AEC71A8002F6278 /* IRecLibrary.swift */; };
+		999365041AEB27D700CD7955 /* ProgrammeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999365031AEB27D700CD7955 /* ProgrammeItemTableViewCell.swift */; };
+		99A9BCAC1AF63974002D1498 /* md5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A9BCAB1AF63974002D1498 /* md5.swift */; };
+		99DCC76D1AEB182500CF6BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC76C1AEB182500CF6BF4 /* AppDelegate.swift */; };
+		99DCC76F1AEB182500CF6BF4 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC76E1AEB182500CF6BF4 /* ScheduleViewController.swift */; };
+		99DCC7711AEB182500CF6BF4 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC7701AEB182500CF6BF4 /* RecordingsViewController.swift */; };
+		99DCC7741AEB182500CF6BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DCC7721AEB182500CF6BF4 /* Main.storyboard */; };
+		99DCC7761AEB182500CF6BF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCC7751AEB182500CF6BF4 /* Images.xcassets */; };
+		99DCC7791AEB182500CF6BF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DCC7771AEB182500CF6BF4 /* LaunchScreen.xib */; };
+		99DCC7851AEB182500CF6BF4 /* iRecMagicTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC7841AEB182500CF6BF4 /* iRecMagicTVTests.swift */; };
+		99DCC78F1AEB1AF200CF6BF4 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC78E1AEB1AF200CF6BF4 /* AlarmsViewController.swift */; };
+		99DCC7911AEB1B0600CF6BF4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCC7901AEB1B0600CF6BF4 /* SettingsViewController.swift */; };
+		99E1CE0B1B80423D00888702 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1CE0A1B80423D00888702 /* NSBundle+Language.m */; };
+		99E1CE0F1B80462A00888702 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E1CE0E1B80462A00888702 /* LocalizedString.swift */; };
+		99E1CE101B804D5400888702 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E1CE121B804D5400888702 /* Localizable.strings */; };
+		FAD0961ECE3515CD51283503 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FEBC3B857937F11DD30F65 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DCC77F1AEB182500CF6BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DCC75F1AEB182500CF6BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DCC7661AEB182500CF6BF4;
+			remoteInfo = iRecMagicTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4DB7BF7B57289CA6C34438 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		94FEBC3B857937F11DD30F65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99132ECE1B86190100F26B40 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		99132ED01B86196100F26B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99132ED11B861BFB00F26B40 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = SOURCE_ROOT; };
+		99132ED31B861C2500F26B40 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99132ED51B861C2A00F26B40 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		99132ED71B861C3600F26B40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99132ED91B861C4D00F26B40 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		99132EDB1B861C5800F26B40 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		99132EDC1B861C5800F26B40 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		99132EDF1B861C6400F26B40 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		99132EE11B861C6F00F26B40 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99132EE31B861C7400F26B40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		99132EE51B861C8C00F26B40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99132EE71B861CBC00F26B40 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		99132EE91B861D9300F26B40 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9914D74A1B83751B0034CE17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9925E2DD1B5A4B20007A2AF9 /* EditChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditChannelsViewController.swift; sourceTree = "<group>"; };
+		99587C2F1B04ABBF00EDC3DD /* mock */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mock; sourceTree = "<group>"; };
+		998920C41B0426A00039CC47 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		998F5B1A1AEC71A8002F6278 /* IRecLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRecLibrary.swift; sourceTree = "<group>"; };
+		998F5B1C1AEC74F8002F6278 /* Bridging-Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Headers.h"; path = "../Bridging-Headers.h"; sourceTree = "<group>"; };
+		999365031AEB27D700CD7955 /* ProgrammeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammeItemTableViewCell.swift; sourceTree = "<group>"; };
+		99A9BCAB1AF63974002D1498 /* md5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = md5.swift; sourceTree = "<group>"; };
+		99DCC7671AEB182500CF6BF4 /* iRecMagicTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecMagicTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCC76B1AEB182500CF6BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DCC76C1AEB182500CF6BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99DCC76E1AEB182500CF6BF4 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		99DCC7701AEB182500CF6BF4 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		99DCC7731AEB182500CF6BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DCC7751AEB182500CF6BF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99DCC7781AEB182500CF6BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99DCC77E1AEB182500CF6BF4 /* iRecMagicTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRecMagicTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCC7831AEB182500CF6BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DCC7841AEB182500CF6BF4 /* iRecMagicTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRecMagicTVTests.swift; sourceTree = "<group>"; };
+		99DCC78E1AEB1AF200CF6BF4 /* AlarmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
+		99DCC7901AEB1B0600CF6BF4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		99E1CE081B80337000888702 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		99E1CE091B80423D00888702 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		99E1CE0A1B80423D00888702 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		99E1CE0E1B80462A00888702 /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		99E1CE111B804D5400888702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99E1CE131B804D5800888702 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		99E1CE151B80684C00888702 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		A2892E33E62875179F30EECC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DCC7641AEB182500CF6BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99132EE81B861CBC00F26B40 /* CoreMedia.framework in Frameworks */,
+				99132EE61B861C8C00F26B40 /* AudioToolbox.framework in Frameworks */,
+				99132EE41B861C7400F26B40 /* SystemConfiguration.framework in Frameworks */,
+				99132EE21B861C6F00F26B40 /* StoreKit.framework in Frameworks */,
+				99132EE01B861C6400F26B40 /* MessageUI.framework in Frameworks */,
+				99132EDD1B861C5800F26B40 /* EventKit.framework in Frameworks */,
+				99132EDE1B861C5800F26B40 /* EventKitUI.framework in Frameworks */,
+				99132EDA1B861C4D00F26B40 /* CoreTelephony.framework in Frameworks */,
+				99132ED81B861C3600F26B40 /* CoreGraphics.framework in Frameworks */,
+				99132ED61B861C2A00F26B40 /* AdSupport.framework in Frameworks */,
+				99132ED41B861C2500F26B40 /* AVFoundation.framework in Frameworks */,
+				99132ED21B861BFB00F26B40 /* GoogleMobileAds.framework in Frameworks */,
+				FAD0961ECE3515CD51283503 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCC77B1AEB182500CF6BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B9BC3A04765EAD5D5C7F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99132EE71B861CBC00F26B40 /* CoreMedia.framework */,
+				99132EE51B861C8C00F26B40 /* AudioToolbox.framework */,
+				99132EE31B861C7400F26B40 /* SystemConfiguration.framework */,
+				99132EE11B861C6F00F26B40 /* StoreKit.framework */,
+				99132EDF1B861C6400F26B40 /* MessageUI.framework */,
+				99132EDB1B861C5800F26B40 /* EventKit.framework */,
+				99132EDC1B861C5800F26B40 /* EventKitUI.framework */,
+				99132ED91B861C4D00F26B40 /* CoreTelephony.framework */,
+				99132ED71B861C3600F26B40 /* CoreGraphics.framework */,
+				99132ED51B861C2A00F26B40 /* AdSupport.framework */,
+				99132ED31B861C2500F26B40 /* AVFoundation.framework */,
+				94FEBC3B857937F11DD30F65 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D0DDD8F935E3E618400140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2892E33E62875179F30EECC /* Pods.debug.xcconfig */,
+				0F4DB7BF7B57289CA6C34438 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		991CE9531B8B3E4400C318A4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		99DCC75E1AEB182400CF6BF4 = {
+			isa = PBXGroup;
+			children = (
+				99587C2F1B04ABBF00EDC3DD /* mock */,
+				99DCC7691AEB182500CF6BF4 /* iRecMagicTV */,
+				99DCC7811AEB182500CF6BF4 /* iRecMagicTVTests */,
+				99DCC7681AEB182500CF6BF4 /* Products */,
+				94D0DDD8F935E3E618400140 /* Pods */,
+				84B9BC3A04765EAD5D5C7F85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99DCC7681AEB182500CF6BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DCC7671AEB182500CF6BF4 /* iRecMagicTV.app */,
+				99DCC77E1AEB182500CF6BF4 /* iRecMagicTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DCC7691AEB182500CF6BF4 /* iRecMagicTV */ = {
+			isa = PBXGroup;
+			children = (
+				991CE9531B8B3E4400C318A4 /* New Group */,
+				99DCC76C1AEB182500CF6BF4 /* AppDelegate.swift */,
+				99DCC76E1AEB182500CF6BF4 /* ScheduleViewController.swift */,
+				99DCC7701AEB182500CF6BF4 /* RecordingsViewController.swift */,
+				998920C41B0426A00039CC47 /* ChannelViewController.swift */,
+				99DCC78E1AEB1AF200CF6BF4 /* AlarmsViewController.swift */,
+				99DCC7901AEB1B0600CF6BF4 /* SettingsViewController.swift */,
+				99DCC7721AEB182500CF6BF4 /* Main.storyboard */,
+				99DCC7751AEB182500CF6BF4 /* Images.xcassets */,
+				99DCC7771AEB182500CF6BF4 /* LaunchScreen.xib */,
+				99DCC76A1AEB182500CF6BF4 /* Supporting Files */,
+				999365031AEB27D700CD7955 /* ProgrammeItemTableViewCell.swift */,
+				998F5B1A1AEC71A8002F6278 /* IRecLibrary.swift */,
+				998F5B1C1AEC74F8002F6278 /* Bridging-Headers.h */,
+				99A9BCAB1AF63974002D1498 /* md5.swift */,
+				9925E2DD1B5A4B20007A2AF9 /* EditChannelsViewController.swift */,
+				99E1CE091B80423D00888702 /* NSBundle+Language.h */,
+				99E1CE0A1B80423D00888702 /* NSBundle+Language.m */,
+				99E1CE121B804D5400888702 /* Localizable.strings */,
+				99E1CE0E1B80462A00888702 /* LocalizedString.swift */,
+				9914D74A1B83751B0034CE17 /* LaunchScreen.storyboard */,
+				99132ECF1B86190100F26B40 /* InfoPlist.strings */,
+				99132EE91B861D9300F26B40 /* TabBarController.swift */,
+			);
+			path = iRecMagicTV;
+			sourceTree = "<group>";
+		};
+		99DCC76A1AEB182500CF6BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99132ED11B861BFB00F26B40 /* GoogleMobileAds.framework */,
+				99DCC76B1AEB182500CF6BF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99DCC7811AEB182500CF6BF4 /* iRecMagicTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				99DCC7841AEB182500CF6BF4 /* iRecMagicTVTests.swift */,
+				99DCC7821AEB182500CF6BF4 /* Supporting Files */,
+			);
+			path = iRecMagicTVTests;
+			sourceTree = "<group>";
+		};
+		99DCC7821AEB182500CF6BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99DCC7831AEB182500CF6BF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DCC7661AEB182500CF6BF4 /* iRecMagicTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DCC7881AEB182500CF6BF4 /* Build configuration list for PBXNativeTarget "iRecMagicTV" */;
+			buildPhases = (
+				70994399242797F3A525CBF9 /* Check Pods Manifest.lock */,
+				99DCC7631AEB182500CF6BF4 /* Sources */,
+				99DCC7641AEB182500CF6BF4 /* Frameworks */,
+				99DCC7651AEB182500CF6BF4 /* Resources */,
+				4F89787B63FE25755E5AE9A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRecMagicTV;
+			productName = iRecMagicTV;
+			productReference = 99DCC7671AEB182500CF6BF4 /* iRecMagicTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99DCC77D1AEB182500CF6BF4 /* iRecMagicTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DCC78B1AEB182500CF6BF4 /* Build configuration list for PBXNativeTarget "iRecMagicTVTests" */;
+			buildPhases = (
+				99DCC77A1AEB182500CF6BF4 /* Sources */,
+				99DCC77B1AEB182500CF6BF4 /* Frameworks */,
+				99DCC77C1AEB182500CF6BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DCC7801AEB182500CF6BF4 /* PBXTargetDependency */,
+			);
+			name = iRecMagicTVTests;
+			productName = iRecMagicTVTests;
+			productReference = 99DCC77E1AEB182500CF6BF4 /* iRecMagicTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DCC75F1AEB182500CF6BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Studio KUMA";
+				TargetAttributes = {
+					99DCC7661AEB182500CF6BF4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RN8JJ6QPYP;
+					};
+					99DCC77D1AEB182500CF6BF4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 99DCC7661AEB182500CF6BF4;
+					};
+				};
+			};
+			buildConfigurationList = 99DCC7621AEB182500CF6BF4 /* Build configuration list for PBXProject "iRecMagicTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 99DCC75E1AEB182400CF6BF4;
+			productRefGroup = 99DCC7681AEB182500CF6BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DCC7661AEB182500CF6BF4 /* iRecMagicTV */,
+				99DCC77D1AEB182500CF6BF4 /* iRecMagicTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DCC7651AEB182500CF6BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E1CE101B804D5400888702 /* Localizable.strings in Resources */,
+				99132ECD1B86190100F26B40 /* InfoPlist.strings in Resources */,
+				99DCC7741AEB182500CF6BF4 /* Main.storyboard in Resources */,
+				99DCC7791AEB182500CF6BF4 /* LaunchScreen.xib in Resources */,
+				9914D74B1B83751B0034CE17 /* LaunchScreen.storyboard in Resources */,
+				99587C301B04ABBF00EDC3DD /* mock in Resources */,
+				99DCC7761AEB182500CF6BF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCC77C1AEB182500CF6BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F89787B63FE25755E5AE9A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70994399242797F3A525CBF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DCC7631AEB182500CF6BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999365041AEB27D700CD7955 /* ProgrammeItemTableViewCell.swift in Sources */,
+				998920C51B0426A00039CC47 /* ChannelViewController.swift in Sources */,
+				99E1CE0F1B80462A00888702 /* LocalizedString.swift in Sources */,
+				99DCC78F1AEB1AF200CF6BF4 /* AlarmsViewController.swift in Sources */,
+				99A9BCAC1AF63974002D1498 /* md5.swift in Sources */,
+				9925E2DE1B5A4B20007A2AF9 /* EditChannelsViewController.swift in Sources */,
+				99DCC7711AEB182500CF6BF4 /* RecordingsViewController.swift in Sources */,
+				99DCC76D1AEB182500CF6BF4 /* AppDelegate.swift in Sources */,
+				99DCC7911AEB1B0600CF6BF4 /* SettingsViewController.swift in Sources */,
+				998F5B1B1AEC71A8002F6278 /* IRecLibrary.swift in Sources */,
+				99132EEA1B861D9300F26B40 /* TabBarController.swift in Sources */,
+				99DCC76F1AEB182500CF6BF4 /* ScheduleViewController.swift in Sources */,
+				99E1CE0B1B80423D00888702 /* NSBundle+Language.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCC77A1AEB182500CF6BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCC7851AEB182500CF6BF4 /* iRecMagicTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99DCC7801AEB182500CF6BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DCC7661AEB182500CF6BF4 /* iRecMagicTV */;
+			targetProxy = 99DCC77F1AEB182500CF6BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99132ECF1B86190100F26B40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99132ECE1B86190100F26B40 /* zh-Hant */,
+				99132ED01B86196100F26B40 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99DCC7721AEB182500CF6BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DCC7731AEB182500CF6BF4 /* Base */,
+				99E1CE151B80684C00888702 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DCC7771AEB182500CF6BF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DCC7781AEB182500CF6BF4 /* Base */,
+				99E1CE081B80337000888702 /* zh-Hant */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		99E1CE121B804D5400888702 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E1CE111B804D5400888702 /* Base */,
+				99E1CE131B804D5800888702 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DCC7861AEB182500CF6BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99DCC7871AEB182500CF6BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DCC7891AEB182500CF6BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2892E33E62875179F30EECC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iRecMagicTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Headers.h";
+			};
+			name = Debug;
+		};
+		99DCC78A1AEB182500CF6BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4DB7BF7B57289CA6C34438 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yiu Cheong Wong (RN8JJ6QPYP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iRecMagicTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8868ac5-1927-4176-81d8-bce58e33a0d1";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Headers.h";
+			};
+			name = Release;
+		};
+		99DCC78C1AEB182500CF6BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iRecMagicTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRecMagicTV.app/iRecMagicTV";
+			};
+			name = Debug;
+		};
+		99DCC78D1AEB182500CF6BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iRecMagicTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRecMagicTV.app/iRecMagicTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DCC7621AEB182500CF6BF4 /* Build configuration list for PBXProject "iRecMagicTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCC7861AEB182500CF6BF4 /* Debug */,
+				99DCC7871AEB182500CF6BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DCC7881AEB182500CF6BF4 /* Build configuration list for PBXNativeTarget "iRecMagicTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCC7891AEB182500CF6BF4 /* Debug */,
+				99DCC78A1AEB182500CF6BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DCC78B1AEB182500CF6BF4 /* Build configuration list for PBXNativeTarget "iRecMagicTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCC78C1AEB182500CF6BF4 /* Debug */,
+				99DCC78D1AEB182500CF6BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DCC75F1AEB182500CF6BF4 /* Project object */;
+}

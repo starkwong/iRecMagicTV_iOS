@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.5.3'
+pod 'HTMLReader', '~> 0.7.1'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'CJPAdController', '~> 1.7'
+

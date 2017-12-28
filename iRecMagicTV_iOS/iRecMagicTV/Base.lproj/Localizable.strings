@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  iRecMagicTV
+
+  Created by Stark Wong on 2015/08/16.
+  Copyright (c) 2015年 Studio KUMA. All rights reserved.
+*/
+
+"login_alert_mobileno" = "Mobile Number:";
+"login_alert_password" = "Password:";
+"clf_login_title" = "Login";
+"ok" = "OK";
+"cancel" = "Cancel";
+"clf_show_favorites" = "Show Favorites";
+"clf_show_all" = "Show All Channels";
+"plf_exist_title" = "Record";
+"plf_overlap" = "The current programme overlaps with a scheduled programme:\n";
+"plf_info_title" = "Recording";
+"plf_info_prerecord" = "Date: %@\nTime: %@\nDuration: %@\nName: %@\n\n\%@";
+"plf_success_mesage" = "Recording registered successfully";
+"yes" = "Yes";
+"no" = "No";
+"plf_exist_message" = "The selected programme already scheduled for recording. Still proceed?";
+"aea_start" = "%@ (%@) is about to start.";
+"plf_exist2_title" = "Alert";
+"plf_success2_message" = "Alert registered successfully";
+"plf_info_error" = "Unable to retrieve information for selected programme.";
+"plf_single" = "(Single)";
+"plf_multiple" = "(Multiple)";
+"sf_logout" = "Logout";
+"sf_logout_message" = "This will logout current account and remove all recording details stored locally. Are you sure?";
+"sf_logout_clear_logout" = "Logout";
+"rvc_note" = "Removing items from this list does not remove from your MagicTV device. You must remove them manually.";

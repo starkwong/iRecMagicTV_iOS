@@ -1,0 +1,129 @@
+
+/* Class = "UIButton"; normalTitle = "Wed"; ObjectID = "1DF-7Q-n2C"; */
+"1DF-7Q-n2C.normalTitle" = "三";
+
+/* Class = "UIButton"; normalTitle = "Tue"; ObjectID = "1Rd-Fh-vA1"; */
+"1Rd-Fh-vA1.normalTitle" = "二";
+
+/* Class = "UIButton"; normalTitle = "Mon"; ObjectID = "3Ib-hq-sGu"; */
+"3Ib-hq-sGu.normalTitle" = "一";
+
+/* Class = "UIButton"; normalTitle = "Fri"; ObjectID = "3RZ-bx-yOb"; */
+"3RZ-bx-yOb.normalTitle" = "五";
+
+/* Class = "UINavigationItem"; title = "Edit Favorites"; ObjectID = "5am-uP-14F"; */
+"5am-uP-14F.title" = "編輯最愛頻道";
+
+/* Class = "UILabel"; text = "clf_create_favorites"; ObjectID = "6cL-wt-SHu"; */
+"6cL-wt-SHu.text" = "建立最愛頻道清單";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "7IP-ba-bRF"; */
+"7IP-ba-bRF.text" = "Language";
+
+/* Class = "UILabel"; text = "clf_edit_favories"; ObjectID = "7PV-tC-3Xx"; */
+"7PV-tC-3Xx.text" = "編輯最愛頻道";
+
+/* Class = "UITableViewSection"; headerTitle = "Account Settings"; ObjectID = "8fb-fx-lKM"; */
+"8fb-fx-lKM.headerTitle" = "帳號設定";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "BQf-ay-Zft"; */
+"BQf-ay-Zft.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Thu"; ObjectID = "DKM-tb-8SB"; */
+"DKM-tb-8SB.normalTitle" = "四";
+
+/* Class = "UILabel"; text = "All Channels"; ObjectID = "Ebz-aU-q65"; */
+"Ebz-aU-q65.text" = "所有頻道";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Ejx-sZ-YoK"; */
+"Ejx-sZ-YoK.text" = "詳細資料";
+
+/* Class = "UILabel"; text = "nowTV"; ObjectID = "FDL-EJ-q31"; */
+"FDL-EJ-q31.text" = "nowTV";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "I97-zX-jWN"; */
+"I97-zX-jWN.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "♡"; ObjectID = "Itp-u9-6Zd"; */
+"Itp-u9-6Zd.normalTitle" = "♡";
+
+/* Class = "UIButton"; selectedTitle = "♥"; ObjectID = "Itp-u9-6Zd"; */
+"Itp-u9-6Zd.selectedTitle" = "♥";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "KDQ-o4-DNe"; */
+"KDQ-o4-DNe.text" = "Title";
+
+/* Class = "UILabel"; text = "Device"; ObjectID = "NTy-Fd-euh"; */
+"NTy-Fd-euh.text" = "裝置";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NtA-fd-k3E"; */
+"NtA-fd-k3E.text" = "Title";
+
+/* Class = "UILabel"; text = "Favorites"; ObjectID = "OUY-tt-3Ly"; */
+"OUY-tt-3Ly.text" = "最愛頻道";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "PLl-ce-KGn"; */
+"PLl-ce-KGn.text" = "Detail";
+
+/* Class = "UILabel"; text = "Cable TV"; ObjectID = "QbI-VO-YKD"; */
+"QbI-VO-YKD.text" = "Cable TV";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WrT-8k-Vpi"; */
+"WrT-8k-Vpi.text" = "Title";
+
+/* Class = "UILabel"; text = "clf_show_all"; ObjectID = "Wxz-Bg-DoB"; */
+"Wxz-Bg-DoB.text" = "顯示所有頻道";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Xac-jj-zl2"; */
+"Xac-jj-zl2.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Sun"; ObjectID = "YYi-0L-vOs"; */
+"YYi-0L-vOs.normalTitle" = "日";
+
+/* Class = "UITableViewSection"; headerTitle = "Other Settings"; ObjectID = "aG1-05-gLp"; */
+"aG1-05-gLp.headerTitle" = "其他設定";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "bhj-jq-WxX"; */
+"bhj-jq-WxX.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "big-5J-fnx"; */
+"big-5J-fnx.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "REC"; ObjectID = "cKm-d4-T4R"; */
+"cKm-d4-T4R.normalTitle" = "REC";
+
+/* Class = "UILabel"; text = "Network Filter"; ObjectID = "cbv-l1-TuH"; */
+"cbv-l1-TuH.text" = "網路篩選";
+
+/* Class = "UIButton"; normalTitle = "Sat"; ObjectID = "dwV-dI-Y4P"; */
+"dwV-dI-Y4P.normalTitle" = "六";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "eXe-hr-RjP"; */
+"eXe-hr-RjP.text" = "使用者";
+
+/* Class = "UILabel"; text = "DTT"; ObjectID = "hyz-6b-F0a"; */
+"hyz-6b-F0a.text" = "DTT";
+
+/* Class = "UIButton"; normalTitle = "ALT"; ObjectID = "ljj-Ec-Her"; */
+"ljj-Ec-Her.normalTitle" = "ALT";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "nbQ-f6-teg"; */
+"nbQ-f6-teg.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "pXw-oh-pS6"; */
+"pXw-oh-pS6.text" = "Subtitle";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "qB5-js-7HV"; */
+"qB5-js-7HV.title" = "儲存";
+
+/* Class = "UITextView"; text = "Removing items from this list does not remove from your MagicTV device. You must remove them manually."; ObjectID = "wYh-Ql-G2t"; */
+"wYh-Ql-G2t.text" = "從這個清單中移除項目並不會從您的 MagicTV 裝置實際移除，您必須自行在裝置上移除。";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "xN3-gh-SWD"; */
+"xN3-gh-SWD.text" = "Detail";
+
+"BxM-HR-XNR.title" = "設定";
+
+"ZFA-OC-r5F.title" = "錄影";
+
+"iYB-AO-wDo.title" = "通知";
